@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="theme_color">#ebf0f0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#30000000</color>
+
+    <color name="text_color">#FF444444</color>
+    <color name="text_hint">#FFCCCCCC</color>
+
+    <color name="green">#9000FF00</color>
+    <color name="green_EE">#9000EE00</color>
+    <color name="green_DD">#9000DD00</color>
+    <color name="green_CC">#9000CC00</color>
+    <color name="green_BB">#9000BB00</color>
+    <color name="green_AA">#9000AA00</color>
+    <color name="green_99">#90009900</color>
+    <color name="green_88">#90008800</color>
+    <color name="green_66">#90006600</color>
+    <color name="green_44">#90004400</color>
+    <color name="green_22">#90002200</color>
+
+    <color name="light_gray">#adadad</color>
+</resources>

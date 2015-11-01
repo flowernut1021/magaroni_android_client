@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="phone_number">手机号</string>
+    <string name="password">密码</string>
+    <string name="show_password">显示密码</string>
+    <string name="login">登录</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="register">注册</string>
+    <string name="click_login_agree">点击“登录”按钮，即表明您同意</string>
+    <string name="app_declare">xxx免责声明</string>
+
+</resources>

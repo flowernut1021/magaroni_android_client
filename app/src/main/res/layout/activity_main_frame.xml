@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="top|center_horizontal"
+    android:paddingBottom="0dip">
+
+    <LinearLayout
+        android:id="@+id/main_frame_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical"></LinearLayout>
+
+
+    <TextView
+        android:id="@+id/hint_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-28dip"
+        android:gravity="center"
+        android:padding="5dip"
+        android:text="正在刷新..."
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_small" />
+
+    <LinearLayout
+        android:id="@+id/hint_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="-30dip"
+        android:padding="5dip"
+        android:gravity="center"
+        android:visibility="invisible">
+        <ImageView
+            android:id="@+id/hint_image"
+            android:layout_width="16dip"
+            android:layout_height="17dip"/>
+        <TextView
+            android:id="@+id/hint_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="17dip"
+            android:paddingLeft="9dip"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</RelativeLayout>
