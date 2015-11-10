@@ -6,4 +6,6 @@
     <dimen name="text_small">12sp</dimen>
     <dimen name="text_normal">14sp</dimen>
     <dimen name="text_big">16sp</dimen>
+
+    <dimen name="homepage_module_text_size">20sp</dimen>
 </resources>

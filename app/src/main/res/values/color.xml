@@ -21,4 +21,14 @@
     <color name="green_22">#90002200</color>
 
     <color name="light_gray">#adadad</color>
+    <color name="gray_CC">#FFCCCCCC</color>
+
+    <!-- fit color -->
+    <color name="fit_red">#FE4365</color>
+    <color name="fit_pink">#FCA79A</color>
+    <color name="fit_yellow">#F9CDAD</color>
+    <color name="fit_light_green">#C8C8A9</color>
+    <color name="fit_green">#83AF9B</color>
+
+    <color name="red">#FF0000</color>
 </resources>

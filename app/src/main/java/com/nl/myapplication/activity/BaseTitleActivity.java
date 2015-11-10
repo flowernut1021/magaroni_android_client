@@ -2,6 +2,7 @@ package com.nl.myapplication.activity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -62,6 +63,7 @@ public class BaseTitleActivity extends BaseActivity {
         setMiddleTitleText(EMPTY_PLACE_HOLDER);
 
         setTitleBar();
+        onBackAction();
     }
 
     protected void setTitleBar() {
@@ -123,7 +125,7 @@ public class BaseTitleActivity extends BaseActivity {
         //
         int color = rightButtonTextDefaultColor;
         if(!enabled) {
-            color = getResources().getColor(R.color.text_hint);
+            color = getColorByResId(R.color.text_hint);
         }
         rightTitleText.setTextColor(color);
         rightTitleLayout.setClickable(enabled);
@@ -182,5 +184,24 @@ public class BaseTitleActivity extends BaseActivity {
 
     protected void setMiddleTitleText(String text) {
         middleTitleText.setText(text);
+    }
+
+    protected void setLeftTitleClickLister(OnClickListener clickLister) {
+        leftTitleLayout.setOnClickListener(clickLister);
+    }
+
+    protected void onBackAction() {
+        setLeftTitleClickLister(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ViewUtil.preventViewMultipleClick(v, 1000);
+                processBeforeFinish();
+                finish();
+            }
+        });
+    }
+
+    protected void processBeforeFinish() {
+        // do something before finish
     }
 }

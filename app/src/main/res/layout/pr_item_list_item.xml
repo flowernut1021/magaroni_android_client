@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dip"
+    android:layout_marginTop="10dip"
+    android:orientation="horizontal">
+    
+    <ImageView
+        android:id="@+id/pr_item_image"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:src="@mipmap/homepage_pic1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dip"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/pr_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="@dimen/homepage_module_text_size"
+                android:textStyle="bold"
+                android:text="产后催乳/产后乳腺疏通"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textSize="@dimen/homepage_module_text_size"
+                android:textColor="@color/red"
+                android:text="￥ 300"
+                android:layout_weight="2"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/pr_item_desc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:textColor="@color/light_gray"
+            android:textSize="@dimen/text_normal"
+            android:text="《琅琊榜》是由山东影视传媒集团、山东影视制作有限公司、北京儒意欣欣影业、北京和颂天地影视文化有限公司、北京圣基影业有限公司、东阳正午阳光影视有限公司联合出品的古装传奇剧"/>
+    </LinearLayout>
+</LinearLayout>

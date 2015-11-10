@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Magaroni</string>
 
     <string name="phone_number">手机号</string>
     <string name="password">密码</string>
@@ -9,5 +9,18 @@
     <string name="register">注册</string>
     <string name="click_login_agree">点击“登录”按钮，即表明您同意</string>
     <string name="app_declare">xxx免责声明</string>
+
+    <!-- tab -->
+    <string name="homepage">首页</string>
+    <string name="order">订单</string>
+    <string name="mine">我的</string>
+    <string name="more">更多</string>
+    
+    <string name="booking">预约</string>
+    <string name="postpartum_rehabilitation">产后康复</string>
+    <string name="health">保健</string>
+    
+    <string name="item">项目</string>
+    <string name="technician">技师</string>
 
 </resources>
